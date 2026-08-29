@@ -1,0 +1,10 @@
+cff-version: 1.2.0
+title: "Indian Political Ads on Meta"
+message: "If you use this dataset, please cite it."
+type: dataset
+
+authors:
+  - family-names: Khan
+    given-names: Arman
+
+repository-code: "https://github.com/Arman-khan01/India-meta-political-ads-dataset"
