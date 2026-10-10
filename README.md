@@ -2,44 +2,46 @@
 
 > A Power BI dashboard companion for exploring political advertising activity on Meta platforms in India.
 
-This repository brings together the project dataset, exploratory notebooks, and a dashboard preview. The dashboard documentation below is intentionally limited to the two supplied pages and the visuals visible in their screenshots.
+This repository contains the project dataset, exploratory notebooks, and dashboard previews. The descriptions below cover only the two pages shown in the supplied dashboard screenshots.
 
-## Dashboard previews
+## Dashboard
+
+The dashboard screenshots are collected in the [Dashboard](Dashboard) folder.
 
 ### Overview
 
-![Overview dashboard page](assets/dashboard-overview.png)
+![Overview dashboard page](Dashboard/Overview.png)
 
 The **Overview** page provides a high-level view of campaign scale, spend, and reach.
 
 - KPI cards show **Avg Spend (2.48K)**, **Total Reach (729M)**, **Total Ads (10K)**, **Max Spend (1.00M)**, **Total Politicians (2K)**, **CPM (33.41)**, and total **Spend (24M)**.
-- A page-level bar chart ranks **Total Financial Spend by page_name**.
+- A bar chart ranks **Total Financial Spend by page_name**.
 - A line chart tracks **Total Financial Spend by Year**.
 - A donut chart breaks down **Total Financial Spend by Platform**.
-- Date and page-name slicers support focused exploration. The captured view spans **10 November 2024 to 26 March 2026**.
+- Date and page-name slicers support exploration. The captured view spans **10 November 2024 to 26 March 2026**.
 
 ### Objective: audience targeting and efficiency
 
-![Objective dashboard page](assets/dashboard-objective.png)
+![Objective dashboard page](Dashboard/Objective.png)
 
 The **Objective** page focuses on targeting patterns and the relationship between spend and reach.
 
 - Gender, age-group, and delivery-date slicers provide audience and period filtering.
 - A donut chart shows **Total Financial Spend by top_targeted_age**.
 - A scatter chart, **Spend vs. Reach Efficiency by Target Age**, compares total financial spend with total reach and includes a time playback control.
-- The page’s accompanying notes frame the view as a way to compare age-segment targeting and identify campaigns that achieve high reach relative to spend.
+- The page notes describe comparing age-segment targeting and identifying campaigns that achieve high reach relative to spend.
 
 ## Repository contents
 
+- `Dashboard/` — Power BI dashboard screenshots.
 - `data/` — the Meta political ads dataset and data dictionary.
 - `notebooks/` — cleaning, EDA, objectives, and conclusion notebooks.
 - `images/` — existing notebook-output images.
-- `assets/` — dashboard screenshots used in this README.
 - `docs/` — methodology and limitations placeholders.
 
-## Power BI source availability
+## Power BI report file
 
-The dashboard screenshots are included here as a portfolio preview. The Power BI source file (`.pbix`) is **not included in this repository**, and this project does not claim that it has been uploaded. To make the report reproducible, add the original Power BI file separately when it is available and appropriate to share.
+The Power BI report source (`.pbix`) should be stored in the `Dashboard/` folder when it is available for upload. It is not represented by a substitute file in this repository.
 
 ## License
 
